@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" name="nombre" id="nombre" required>
+            </label>
+            <label for="apellido">
+                <span>Apellido</span>
+                <input type="text" name="apellido" id="apellido" required>
+            </label>
+            <label for="E-mail">
+                <span>E-mail</span>
+                <input type="email" name="correo" id="correo" required>
+            </label>
+            </label>
+            <label for="calendario">
+                <span>Fecha de nacimiento</span>
+                <input type="date" name="calendario" id="calendario">
+            </label>        
+            <label for="Deporte">
+                <span>Deporte Favorito</span>
+                <input list="Deporte Favorito">
+                <datalist id="Deporte Favorito">
+                    <option value="Futbol">Futbol</option>
+                    <option value="Basket">Basket</option>
+                    <option value="Tenis">Tenis</option>
+                    <option value="Rugby">Rugby</option>
+                    <option value="Atletismo">Atletismo</option>
+                    <option value="Otro">Otro</option>
+                </datalist>
+            </label>
+            <label for="Biografia">
+                <span>Biografia</span>
+                <textarea name="Biografia" id="Biografia" cols="30" rows="10" required></textarea>
+            </label>
+            <label for="Submit">
+                <input type="submit">
+            </label>
+        </form>    
+    </main>    
+</body>
+</html>

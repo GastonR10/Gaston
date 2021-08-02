@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+p{
+    color: aquamarine;
+}
+#video {
+    color: indianred;
+}
+#audio {
+    color: indigo;
+}
