@@ -12,14 +12,20 @@
         <h1>Archivo Multimedia</h1>
         <p>Pateando el Sol</p>
         <figure>
-            <img src="./Imagen.jpg" alt="Pateando el Sol" width="800">
+            <img src="./Imagen.jpg" alt="Pateando el Sol" width="500">
         </figure>
         <p id="video">Video</p>
         <figure>
-            <video src="./Video.mp4" width="800">Video</video>
+            <video controls>
+                <source src="./Video.mp4" type="video/mp4">
+            </video>
         </figure>
         <p id="audio">Audio</p>
-        <audio src="./Audio.ogg">Audio</audio>
+        <figure>
+        <audio controls>
+            <source src="./Audio.ogg" type="audio/ogg"> 
+        </audio>
+        </figure>
     </main>
 </body>
 </html>
