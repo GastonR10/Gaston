@@ -1,0 +1,25 @@
+h1{
+    margin-top: 1px;
+    margin-bottom: 5px;
+    color: black;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+form{   
+    background-color: burlywood; 
+    margin-left: 20px;
+    padding: 0.5em;
+    border: 1px solid grey;
+    border-radius: 0em;
+    width: 400px;
+
+}
+input{
+    display: block;
+}
+textarea{
+    display: block;
+}
