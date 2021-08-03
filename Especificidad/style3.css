@@ -1,0 +1,23 @@
+h1{
+    font-family: serif;
+}
+
+#page-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav a{
+    color: white;
+    background-color: chartreuse;
+    text-decoration: none;
+}
+
+.nav .aprender{
+    background-color: crimson;
+    color: cyan;
+}
