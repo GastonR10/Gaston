@@ -1,0 +1,20 @@
+body{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.caja1{
+    background-color: hotpink;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid darkblue;
+    box-sizing: border-box;
+}
+
+.caja2 {
+    background-color: cyan;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
