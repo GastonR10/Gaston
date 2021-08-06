@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    background-color: blanchedalmond;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 50px;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+
+    /* grid-template-rows: 50px auto 100px; */
+
+}
+
+.grid-container div {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}

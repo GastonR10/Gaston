@@ -1,0 +1,22 @@
+html{
+    background-color: skyblue;
+}
+
+.grid-container {
+    display: grid;
+    background-color: skyblue;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border: 1000px blue;
+}
+
+.grid-container div{
+    background-color: lightcyan;
+    text-align: center;
+    color: darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;    
+    font-style: italic;     
+}
+
