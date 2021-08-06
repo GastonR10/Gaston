@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 120px 80px;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "b e e";
+    grid-gap: 25px;
+  
+}
+
+.grid-container div{
+    background-color: skyblue;
+}
+
+.grid-container .div1{
+    grid-area: a;
+    background-color: rosybrown;
+}
+.grid-container .div2{
+    grid-area: b;
+    background-color: red;
+}
+.grid-container .div3{
+    grid-area: c;
+    background-color: saddlebrown;
+}
+.grid-container .div4{
+    grid-area: d;
+    background-color: sandybrown;
+}
+.grid-container .div5{
+    grid-area: e;
+    background-color: silver;
+}

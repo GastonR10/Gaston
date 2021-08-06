@@ -1,0 +1,30 @@
+html {
+    font-size: 6.25%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 100rem 100rem;
+    grid-gap: 10px;
+    font-size: 16rem;
+  
+}
+
+.grid-container div{
+    background-color: rgb(61, 150, 185);
+    text-align: center ;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    padding: 40rem;
+       
+       
+}
+
+.grid-container .div5{
+    grid-column: 3 / span 1 ;
+    grid-row: 1 / span 2 ;
+    background-color: grey;
+    padding: 90rem;
+}
