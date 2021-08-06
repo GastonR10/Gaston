@@ -5,7 +5,7 @@ html{
 .grid-container {
     display: grid;
     background-color: skyblue;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 130px);
     grid-gap: 10px;
     border: 1000px blue;
 }
