@@ -1,0 +1,41 @@
+figure{
+    width: 100%;
+    
+    
+}
+
+.lista1{
+    background-color: coral;
+    color: white;
+    padding: 15px 10px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 11px 43px -2px coral
+}
+
+.lista2{
+    background-color: coral;
+    color: white;
+    padding: 15px 10px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 11px 43px -2px coral
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
+ol {
+    margin: 0%;
+}
+
+ul {
+    margin: 0%;
+}
+
+
