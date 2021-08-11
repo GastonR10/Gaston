@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+}
+
+.red {
+    display: grid;
+    background-color: red;
+    justify-items: center;
+    align-items: center;
+}
+
+.green {
+    display: grid;
+    background-color: green;
+    justify-items: center;
+    align-items: center;
+}
+
+.blue {
+    display: grid;
+    background-color: blue;
+    justify-items: center;
+    align-items: center;
+}
+
+#padre {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: 200px 50px;
+    grid-auto-rows: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+}

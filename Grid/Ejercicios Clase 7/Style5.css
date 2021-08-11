@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    background-color:rgb(187, 180, 255);
+    margin: 20px;
+    height: 360px;
+    width: 860px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr 1fr 1fr 1.5fr 0.2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 10px;
+    grid-template-areas: "a b c d e f"
+                         "g h h d e f";
+    height: 300px;
+    width: 800px;
+    margin: 30px;
+}
+
+.A {
+    background-color: rgb(190, 37, 88);
+    grid-area: a;
+}
+.B {
+    background-color: rgb(34, 184, 159);
+    grid-area: b;
+}
+.C {
+    background-color: rgb(55, 160, 119);
+    grid-area: c;
+}
+.D {
+    background-color: rgb(66, 201, 255);
+    grid-area: d;
+}
+.E {
+    background-color: rgb(66, 86, 175);
+    grid-area: e;
+}
+.F {
+    background-color: rgb(153, 231, 255);
+    grid-area: f;
+}
+.G {
+    background-color: rgb(212, 127, 0);
+    grid-area: g;
+}
+.H {
+    background-color: rgb(211, 159, 107);
+    grid-area: h;
+}

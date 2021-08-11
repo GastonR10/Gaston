@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 1fr 6fr 0.5fr 1fr;
+    grid-template-areas: "header header"
+                         "sidebar main"
+                         "sidebar section"
+                         "footer footer";
+    height: 100vh;
+}
+
+header {
+    background-color: skyblue;
+    grid-area: header;
+}
+
+aside {
+    background-color: slateblue;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: yellow;
+    grid-area: main;
+}
+
+section {
+    background-color: silver;
+    grid-area: section;
+}
+
+footer {
+    background-color: tomato;
+    grid-area: footer;
+}
+
