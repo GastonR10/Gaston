@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    background-color: burlywood;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: cadetblue;
+}
+
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    background-color: blueviolet;
+}
+
+.main-nav__item a::after {
+    content: "|";
+}
+
+p {
+    color: blue;
+}
+
+p::selection {
+    color: red;
+    background: yellow;
+}
