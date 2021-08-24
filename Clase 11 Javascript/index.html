@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu peso en un lugar donde pesas menos</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la Tierra pesas distinto que en Marte o Jupiter</p>
+
+    <script>
+        const soyGordoONo = 30
+        let gTierra = 9.8;
+        let pesoTierra = 85;
+        let gMarte = 3.7;
+        let pesoMarte;
+
+        pesoMarte = parseInt(pesoTierra * gMarte / gTierra);
+        // document.write(pesoMarte);
+        
+        let soy_gordo = pesoMarte < soyGordoONo;
+
+        if(soy_gordo) {
+            document.write("Por favor haga ejercicio")
+        } else {
+            document.write("Por favor coma más")
+        }
+
+        console.log(pesoMarte)
+        console.log(soy_gordo)
+        console.log("Hola, esta es mi primera linea de codigo")
+    </script>
+</body>
+</html>
