@@ -34,4 +34,5 @@ const menor = function (x, y, z) {
 }
 
 console.log(mayor(A, B, C))
+
 console.log(menor(A, B, C))
