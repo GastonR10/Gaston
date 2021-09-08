@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Uno</title>
+</head>
+<body>
+    <input type="text" id="text-input">
+    <button id="add-button">AGREGAR ELEMENTO</button>
+    <button id="reset-button">ELIMINAR ELEMENTO</button>
+    <main class = "container" id="page-main"></main>
+</body>
+<script>
+
+    /*
+    1 Obtener elementos requeridos
+    2 Crear un evento click para el boton agregar
+        2.1 Agregar elementos párrafos por cada texto escrito en el input
+    3 Crear un evento click para el boton eliminar
+        3.1 Eliminar elementos agregados
+        3.2 Si no tiene nada, no hacer nada
+    */
+    const main = document.getElementById("page-main");
+    const input = document.getElementById("text-input");
+    const addButton = document.getElementById("add-button");
+    const resetButton = document.getElementById("reset-button");
+
+    const agregarElemento = function () {
+
+        if(input.value === "") return
+
+        const nuevoElemento = document.createElement("p");
+        nuevoElemento.textContent = input.value;
+
+        input.value = "";
+
+        main.appendChild(nuevoElemento);
+    }
+
+    const quitarElemento = ()=> {
+        main.textContent = "";
+    }
+
+    addButton.addEventListener("click", agregarElemento)
+    resetButton.addEventListener("click", quitarElemento)
+</script>
+</html>
