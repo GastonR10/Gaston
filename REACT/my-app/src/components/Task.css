@@ -1,5 +1,5 @@
-.container {
+.task {
     display: flex;
     justify-content: center;
-    background: red;
+    font-size: 1.2rem;
 }
